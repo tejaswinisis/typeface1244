@@ -1,0 +1,7 @@
+We can crawl a website using Selenium and Beautiful Soup package in python.
+Before we get into crawling,the required website should be get using request method.
+Then after,as each website frontend is made using html,css files.
+Every element in the website has arranged tags such as <h1>,<a>,<img> etc.
+So to extract particular element from website the tag in which the element is placed is to be noted.
+And at the same time each tag has various id's and class names.
+So to extract particular element (tag_name,id_name) of that element should be mention in the methods of Beautiful Soup.

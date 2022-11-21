@@ -1,6 +1,6 @@
 s1=input()
 s2=input()
-x=s2[len(s2)-1]
+x=s2[-1]
 count=0
 for i in s1:
     if i==x:
